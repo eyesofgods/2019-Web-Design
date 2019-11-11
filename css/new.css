@@ -1,0 +1,26 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+nav{
+    float:right;
+    top: 50px;
+    padding-top: 30px;
+}
+nav a{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+}
+#keji{
+    padding-right: 30px;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+#demo{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}

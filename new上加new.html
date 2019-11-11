@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>图片轮播</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css\new.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  </style>
+</head>
+<body>
+<nav>
+    <div>
+      <a href="#">自然灾害</a>
+      <a href="#">国际合作</a>
+      <a href="#">难民</a>
+      <a href="#">战争</a>
+      <a href="#">发展</a>
+      <a id="keji" href="#">科技</a>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+  </ul>
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img\closeup-2091831.jpg" alt="自然灾害">
+    </div>
+    <div class="carousel-item">
+      <img src="img\hands-3331229 (1).jpg" alt="国际合作">
+    </div>
+    <div class="carousel-item">
+      <img src="img\humanitarian-aid-939723.jpg" alt="难民">
+    </div>
+    <div class="carousel-item">
+        <img src="img\peace-529380.jpg" alt="战争">
+      </div>
+    <div class="carousel-item">
+        <img src="img\shanghai-3616625.jpg" alt="发展">
+      </div>
+    <div class="carousel-item">
+        <img src="img\technology-2082642.jpg"  alt="科技">
+      </div>
+  </div>
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</body>
+</html>
